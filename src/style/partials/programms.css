@@ -87,10 +87,14 @@
  /* font-size: 1.5em;*/
  font-size: 18px;
 }
+
 .englishh{
   font-size: 2.75em;
   margin-right: 30px;
 }
 .paddings-scale{
   padding: 15px !important;
+}
+.prog_foto{
+  margin-bottom: 15px;
 }
