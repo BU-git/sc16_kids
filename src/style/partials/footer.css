@@ -1,7 +1,3 @@
-@font-face{
-  font-family:"Roboto-Thin";
-  src: url(fonts/Roboto-Thin_1.ttf);
-}
 #contacts{
   background-color: #9b5d90;
   width: 100% !important;
@@ -21,7 +17,7 @@ input {
   border: solid 2px white;
   border-radius: 5px;
   background-color: #9b5d90;
-  font-family: "Roboto-Thin";
+  font-family: "RobotoLight";
   color: white !important;
 }
 .address {
@@ -54,7 +50,7 @@ input {
   color: white;
   margin: 5%;
   font-size: 18px;
-  font-family: "Roboto-Thin";
+  font-family: "RobotoLight";
   line-height: 1.5;
 }
 .centered-text{
