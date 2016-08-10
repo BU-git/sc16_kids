@@ -1,14 +1,5 @@
-@font-face{
-  font-family:"Roboto-Light";
-  src: url(fonts/Roboto-Light_1.ttf);
-}
-@font-face{
-  font-family:"Roboto-Regular";
-  src: url(fonts/Roboto-Regular_0.ttf);
-}
-
 .collective h2{
-  font-family: "Roboto-Regular";
+  font-family: "RobotoRegular";
   font-size: 30px;
 }
 .employe-photo {
@@ -21,7 +12,7 @@
   padding-top: 20px;
 }
 p {
-  font-family: "Roboto-Light";
+  font-family: "RobotoLight";
   font-size: 16px;
 }
 .bigger {font-size: 24px;}
