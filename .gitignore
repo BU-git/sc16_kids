@@ -11,3 +11,5 @@ tmp
 build/
 *.html
 
+
+src/img/.DS_Store
