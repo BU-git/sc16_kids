@@ -1,11 +1,16 @@
 <footer id="contacts">
-	<div class="container  ">
+	<div class="container ">
 		<div class="col-lg-4 col-md-4 col-sm-12 paddings-scale">
-			<a href="index.html#contacts" class="thumbnail " data-toggle="modal" data-target="#lightbox">
+			<!-- <a href="index.html#contacts" class="thumbnail " data-toggle="modal" data-target="#lightbox">
 				<img src="build/img/map.png" alt="Map" class="img-responsive map"/>
-			</a>
+			</a> -->
+			<button class="btn btn-map" data-toggle="modal" data-target="#test-modal"> 
+				<img src="build/img/map.png" alt="Map" class="img-responsive map"/>
+			</button>
 		</div>
-		<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+
+		<!-- <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">X</button>
 				<div class="modal-content">
@@ -14,7 +19,18 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
+
+		<div class="modal fade" id="test-modal" data-modal-index="1">
+  			<div class="modal-dialog">
+  				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+   				<div class="modal-content">
+      				<div class="modal-body">
+        				<img src="build/img/map.png" alt="Map" class="img-responsive map"/>
+     				</div>
+   				</div><!-- /.modal-content -->
+  			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 		<div class="col-lg-4 col-md-4 col-sm-12 ">
 			<div class="inform">
       			<a href="https://www.instagram.com/babyartclub/" target="_blank">

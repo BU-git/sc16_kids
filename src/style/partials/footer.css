@@ -84,7 +84,7 @@ input {
   text-align: center;
 }
 
-#lightbox .close {
+.modal .close {
   opacity: 1;
   color: rgb(255, 255, 255);
   background-color: rgb(25, 25, 25);
@@ -93,12 +93,13 @@ input {
   border: 2px solid rgb(255, 255, 255);
   position: absolute;
   top: -15px;
-  right: -55px;
+  right: -19px;
   z-index:1032;
 }
-[data-hidden="hidden"] {
+
+/*[data-hidden="hidden"] {
   visibility: hidden;
-}
+}*/
 .glyphicon {
   font-size: 1.4em;
 }
@@ -112,4 +113,9 @@ input {
 }
 textarea {
   resize: none;
+}
+.btn-map {
+  padding: 2px;
+  background-color: #fff;
+  border-radius:5px;
 }
