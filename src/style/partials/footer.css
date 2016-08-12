@@ -97,9 +97,9 @@ input {
   z-index:1032;
 }
 
-/*[data-hidden="hidden"] {
+[data-hidden="hidden"] {
   visibility: hidden;
-}*/
+}
 .glyphicon {
   font-size: 1.4em;
 }
